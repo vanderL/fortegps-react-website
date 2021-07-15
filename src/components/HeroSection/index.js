@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
-import Video from '../../video/video.mp4'
+import Video from '../../video/video2.mp4'
 
+import { Button } from '../ButtonElement';
 import { 
     HeroContainer,
     HeroBg,
@@ -9,7 +10,6 @@ import {
     HeroH1,
     HeroP,
     HeroBtnWrapper,
-    Button,
     ArrowRight,
     ArrowForward,
 
@@ -27,7 +27,7 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>Rastrear o seu veículo com tecnologia</HeroH1>
+                <HeroH1>Rastrear o seu veículo com Tecnologia e Facilidade</HeroH1>
                 <HeroP>
                     Invista na sua segurança e na proteção do seu automovel por menos de
                     R$ 1,80 por dia. 
@@ -36,6 +36,10 @@ const HeroSection = () => {
                     <Button to="signup"
                         onMouseEnter={onHover}
                         onMouseLeave={onHover}
+                        primary={false}
+                        dark={false}
+                        big={true}
+                        fontBig={true}
                     >
                        Começar {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button> 
