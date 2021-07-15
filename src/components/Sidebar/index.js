@@ -11,19 +11,19 @@ import {
     SidebarMenu 
 } from './styles';
 
-const Sidebar = () => {
+const Sidebar = ({ isOpen, toggle }) => {
   return (
-      <SidebarContainer>
-          <Icon>
+      <SidebarContainer isOpen={isOpen} onClick={toggle}>
+          <Icon onClick={toggle}>
               <CloseIcon />
           </Icon>
 
           <SidebarWrapper>
               <SidebarMenu>
-                  <SidebarLink to="about">Sobre</SidebarLink>
-                  <SidebarLink to="discover">ForteGPS</SidebarLink>
-                  <SidebarLink to="services">Serviços</SidebarLink>
-                  <SidebarLink to="signup">Contato</SidebarLink>
+                  <SidebarLink to="about" onClick={toggle}>Sobre</SidebarLink>
+                  <SidebarLink to="discover" onClick={toggle}>ForteGPS</SidebarLink>
+                  <SidebarLink to="services" onClick={toggle}>Serviços</SidebarLink>
+                  <SidebarLink to="signup" onClick={toggle}>Contato</SidebarLink>
               </SidebarMenu>
               <SideBtnWrap>
                   <SidebarRoute to="/signin">Sign In</SidebarRoute>
