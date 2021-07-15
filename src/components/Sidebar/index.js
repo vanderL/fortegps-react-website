@@ -20,10 +20,10 @@ const Sidebar = () => {
 
           <SidebarWrapper>
               <SidebarMenu>
-                  <SidebarLink to="about">About</SidebarLink>
-                  <SidebarLink to="discover">Discover</SidebarLink>
+                  <SidebarLink to="about">Sobre</SidebarLink>
+                  <SidebarLink to="discover">ForteGPS</SidebarLink>
                   <SidebarLink to="services">Serviços</SidebarLink>
-                  <SidebarLink to="signup">Sign Up</SidebarLink>
+                  <SidebarLink to="signup">Contato</SidebarLink>
               </SidebarMenu>
               <SideBtnWrap>
                   <SidebarRoute to="/signin">Sign In</SidebarRoute>
