@@ -57,7 +57,7 @@ export const HeroContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgba(35, 42, 52, 0.3)
+    /* background: rgba(35, 42, 52, 0.3) */
 `;
 
 export const HeroH1 = styled.h1`
