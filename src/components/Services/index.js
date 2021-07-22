@@ -1,5 +1,9 @@
 import React from 'react';
 
+import Icon1 from '../../images/city_driver_re.svg';
+import Icon2 from '../../images/metrics.svg';
+import Icon3 from '../../images/my_location.svg';
+
 import {
     ServicesCard,
     ServicesContainer,
