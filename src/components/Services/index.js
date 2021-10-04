@@ -17,22 +17,22 @@ import {
 const Services = () => {
     return (
         <ServicesContainer id="services">
-            <ServicesH1>Our Services</ServicesH1>
+            <ServicesH1>Principais Vantagens</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={Icon1} />
-                    <ServicesH2> Reduce expenses</ServicesH2>
-                    <ServicesP>We help reduce your fess and increase your overall revenue.</ServicesP>
+                    <ServicesH2> Tranquilidade e Segurança </ServicesH2>
+                    <ServicesP> Aleém da tranquilidade de ter uma equipe para pronta resposta, um rastreador ainda pode reduzir o valor do seguro </ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2} />
-                    <ServicesH2> Virtual Offices</ServicesH2>
-                    <ServicesP> you can access our platform online anywhere in the world.</ServicesP>
+                    <ServicesH2> Relatórios Inteligentes </ServicesH2>
+                    <ServicesP> Ajudamos a controlar seus gastos com manutenção e combustivel atraves de relatorios interligentes.</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon3} />
-                    <ServicesH2> Premium Benefits</ServicesH2>
-                    <ServicesP> Unlock our special membership card that return 5% cash back.</ServicesP>
+                    <ServicesH2> Aplicativo Moderno</ServicesH2>
+                    <ServicesP> Na palma da sua mão todas as informações do seu veículo como: tempo ligado, localização e muito mais. </ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>
