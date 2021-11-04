@@ -18,7 +18,9 @@ export const homeObjOne = {
     alt: 'Rastreamento veicular',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    direction: 'discover'
+
 };
 
 export const homeObjTwo = {
@@ -26,16 +28,17 @@ export const homeObjTwo = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Rastreamento veicular',
-    headLine: 'Segurança e tranquilidade ilimitada com zero burocracia',
-    description: 'Tenha acesso ao app exclusivo e também a plataforma web, com diversos relátorios. Tenha seu veiculo sempre em mãos, não abra mão da segurança e da sua tranquilidade.',
+    topLine: 'Equipe especializada',
+    headLine: 'Equipe de alto desempenho',
+    description: 'Equipe preparada para o atendimento especializado na experiência do cliente, com pronta resposta imediata, com atendimento 24 horas',
     buttonLabel: 'Conheça mais',
     imgStart: true,
     alt: 'Segurança veicular',
     img: SecurityImg,
     dark: false,
     primary: false,
-    darkText: true
+    darkText: true,
+    direction: 'payment'
 };
 
 export const homeObjFive = {
@@ -46,30 +49,40 @@ export const homeObjFive = {
     topLine: 'Segunda Via do Boleto',
     headLine: 'Perdeu a fatura? ',
     description: 'Para facilitar a tirar a segunda via, é só clickar no botão "Segunda Via" logo a abaixo e cola a sua linha digitavel',
-    buttonLabel: 'Segunda Via',
+    buttonLabelExterno: 'Segunda Via',
+    buttonLabel: 'Continuar',
     imgStart: false,
     img: Payment,
     alt: 'Rastreamento veicular',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    direction: 'Instagram',
+    directionExterno: 'https://www63.bb.com.br/portalbb/boleto/boletos/hc21e,802,3322,10343.bbx?_ga=2.59242665.505440602.1598874158-303499835.1598874158&pk_vid=a6aba7f7a0b689061598874140f671d6',
+    externo: true
+
 };
 
 export const homeObjFour = {
-    id: 'segunda-via',
+    id: 'instalacao',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
     topLine: 'Rastreamento veicular',
     headLine: 'Segurança e tranquilidade ilimitada com zero burocracia',
     description: 'Tenha acesso ao app exclusivo e também a plataforma web, com diversos relátorios. Tenha seu veiculo sempre em mãos, não abra mão da segurança e da sua tranquilidade.',
-    buttonLabel: 'Marcar instalação',
+    buttonLabelExterno: 'Marcar instalação',
+    buttonLabel: 'Nossos serviços',
     imgStart: true,
     alt: 'Rastreamento veicular',
     img: MyCurrentLocationImg,
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    direction: 'services',
+    directionExterno: 'https://api.whatsapp.com/send?phone=5585994038884&text=Ol%C3%A1%2C%20tenho%20interesse%20no%20rastreamento%20veicular.',
+    externo: true
+
 };
 
 export const homeObjThree = {
@@ -80,11 +93,17 @@ export const homeObjThree = {
     topLine: '@fortegpsrast',
     headLine: 'Promoções e Novidades',
     description: 'Siga nosso instagram para acompanhar nossas postagens',
-    buttonLabel: '@fortegpsrast',
+    buttonLabel: 'continuar',
+    buttonLabelExterno: '@fortegpsrast',
     imgStart: true,
     alt: 'Rastreamento veicular',
     img: Instagram,
     dark: false,
     primary: false,
-    darkText: true
+    darkText: true,
+    direction: 'instalacao',
+    directionExterno: 'https://www.instagram.com/fortegpsrast/',
+    externo: true
+
+
 };

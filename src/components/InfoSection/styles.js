@@ -77,6 +77,7 @@ export const Subtitle = styled.p`
 export const BtnWrap = styled.div`
     display: flex;
     justify-content: flex-start;
+    gap: 32px;
 `;
 export const ImgWrap = styled.div`
     max-width: 555px;

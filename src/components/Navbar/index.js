@@ -28,18 +28,18 @@ const Navbar = ({ toggle }) => {
                             <NavLinks to='about'>Sobre</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='discover'>Discover</NavLinks>
-                        </NavItem>
-                        <NavItem>
                             <NavLinks to='services'>Nossos Serviços</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='signup'>Contrata</NavLinks>
+                            <NavLinks to='instalacao'>Contrata</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to='payment'>Segunda Via</NavLinks>
                         </NavItem>
                     </NavMenu>
                     
                     <NavBtn>
-                        <NavBtnLink to="/signin">Login</NavBtnLink>
+                        <NavBtnLink href="http://www10.itrack.com.br/cfortegps/controlemonitoramento" target="_blank">Login</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

@@ -29,17 +29,18 @@ const HeroSection = () => {
             <HeroContent>
                 <HeroH1>Rastrear o seu veículo com Tecnologia e Facilidade</HeroH1>
                 <HeroP>
-                    Invista na sua segurança e na proteção do seu automovel por menos de
+                    Invista na sua segurança e na proteção do seu automovel a partir de
                     R$ 1,80 por dia. 
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="signup"
+                    <Button to="about"
                         onMouseEnter={onHover}
                         onMouseLeave={onHover}
                         primary={false}
                         dark={false}
                         big={true}
                         fontBig={true}
+                        smooth={true}
                     >
                        Começar {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button> 
