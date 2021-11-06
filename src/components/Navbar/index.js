@@ -39,7 +39,7 @@ const Navbar = ({ toggle }) => {
                     </NavMenu>
                     
                     <NavBtn>
-                        <NavBtnLink href="http://www10.itrack.com.br/cfortegps/controlemonitoramento" target="_blank">Login</NavBtnLink>
+                        <NavBtnLink href="http://www10.itrack.com.br/cfortegps/controlemonitoramento" target="_blank">Rastrear seu Veículo</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

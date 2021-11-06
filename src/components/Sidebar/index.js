@@ -26,7 +26,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                   <SidebarLink to="signup" onClick={toggle}>Contato</SidebarLink>
               </SidebarMenu>
               <SideBtnWrap>
-                  <SidebarRoute to="/signin">Sign In</SidebarRoute>
+                  <SidebarRoute href="http://www10.itrack.com.br/cfortegps/controlemonitoramento" target="_blank">Rastrei seu Veículo</SidebarRoute>
               </SideBtnWrap>
           </SidebarWrapper>
       </SidebarContainer>
