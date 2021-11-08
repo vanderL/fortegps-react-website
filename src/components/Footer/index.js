@@ -46,10 +46,10 @@ const Footer = () => {
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle> Contatos </FooterLinkTitle>
-                            <FooterLink to='/'>Suporte</FooterLink>
-                            <FooterLink to='/'>Financeiro</FooterLink>
-                            <FooterLink to='/'>Cobrança</FooterLink>
-                            <FooterLink to='/'>Atendimento</FooterLink>
+                            <FooterLink href='https://api.whatsapp.com/send?phone=5585994038884&text=Ol%C3%A1%2C%20tenho%20interesse%20no%20rastreamento%20veicular.'>Suporte</FooterLink>
+                            <FooterLink href='https://api.whatsapp.com/send?phone=5585994038884&text=Ol%C3%A1%2C%20tenho%20interesse%20no%20rastreamento%20veicular.'>Financeiro</FooterLink>
+                            <FooterLink href='https://api.whatsapp.com/send?phone=5585994038884&text=Ol%C3%A1%2C%20tenho%20interesse%20no%20rastreamento%20veicular.'>Cobrança</FooterLink>
+                            <FooterLink href='https://api.whatsapp.com/send?phone=5585994038884&text=Ol%C3%A1%2C%20tenho%20interesse%20no%20rastreamento%20veicular.'>Atendimento</FooterLink>
                         </FooterLinkItems>                      
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
@@ -62,10 +62,10 @@ const Footer = () => {
                             ForteGPS - {new Date().getFullYear()}
                         </WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+                            <SocialIconLink href="https://www.facebook.com/FORTEGPS" target="_blank" aria-label="Facebook">
                                 <FaFacebook />
                             </SocialIconLink>
-                            <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+                            <SocialIconLink href="https://www.instagram.com/fortegpsrast" target="_blank" aria-label="Instagram">
                                 <FaInstagram />
                             </SocialIconLink>
                             <SocialIconLink href="/" target="_blank" aria-label="Linkedin">

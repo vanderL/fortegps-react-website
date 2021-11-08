@@ -22,7 +22,7 @@ const Services = () => {
                 <ServicesCard>
                     <ServicesIcon src={Icon1} />
                     <ServicesH2> Tranquilidade e Segurança </ServicesH2>
-                    <ServicesP> Aleém da tranquilidade de ter uma equipe para pronta resposta, um rastreador ainda pode reduzir o valor do seguro </ServicesP>
+                    <ServicesP> Além da tranquilidade de ter uma equipe para pronta resposta, um rastreador ainda pode reduzir o valor do seguro </ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2} />

@@ -9,7 +9,15 @@ import  VeiculoBlindado from '../../images/icons/veiculo-blindado.png';
 import  RecuperacaoBusca from '../../images/icons/rastreamento.png';
 import  Central from '../../images/icons/atendimento-ao-cliente.png';
 import  CercaOnline from '../../images/icons/cerca-eletrica.png';
-import  BloqueioOnline from '../../images/icons/trancar.png';
+import  BloqueioOnline from '../../images/icons/carga.png';
+import  IscaCarga from '../../images/icons/trancar.png';
+import  Drone from '../../images/icons/drone.png';
+import  Frotas from '../../images/icons/engarrafamento.png';
+import  EquipamentoAnatel from '../../images/icons/iot.png';
+import  LocTempoReal from '../../images/icons/localizacao-no-mapa.png';
+import  Relatorios from '../../images/icons/relatorio-de-negocios.png';
+import  Velocimentro from '../../images/icons/velocimetro.png';
+import  AntenaMarshall from '../../images/icons/antena.png';
 
 import {
     ServicesCard,
@@ -64,6 +72,38 @@ const ServicesIcones = () => {
                 <ServicesCard>
                     <ServicesIcon src={BloqueioOnline} />
                     <ServicesH2> Bloqueio e Desbloqueio Online </ServicesH2>
+                </ServicesCard>
+                <ServicesCard>
+                    <ServicesIcon src={IscaCarga} />
+                    <ServicesH2> Iscas para sua carga </ServicesH2>
+                </ServicesCard>
+                <ServicesCard>
+                    <ServicesIcon src={Drone} />
+                    <ServicesH2> Equipe equipada com Drone </ServicesH2>
+                </ServicesCard>
+                <ServicesCard>
+                    <ServicesIcon src={Frotas} />
+                    <ServicesH2> Gestão de Frotas </ServicesH2>
+                </ServicesCard>
+                <ServicesCard>
+                    <ServicesIcon src={EquipamentoAnatel} />
+                    <ServicesH2> Equipe equipada com Drone </ServicesH2>
+                </ServicesCard>
+                <ServicesCard>
+                    <ServicesIcon src={LocTempoReal} />
+                    <ServicesH2> Localização (Monitoramento) em tempo real </ServicesH2>
+                </ServicesCard>
+                <ServicesCard>
+                    <ServicesIcon src={Relatorios} />
+                    <ServicesH2> Relatórios diversos </ServicesH2>
+                </ServicesCard>
+                <ServicesCard>
+                    <ServicesIcon src={Velocimentro} />
+                    <ServicesH2> Gestão de Velocidade </ServicesH2>
+                </ServicesCard>
+                <ServicesCard>
+                    <ServicesIcon src={AntenaMarshall} />
+                    <ServicesH2> Equipe equipada com Antena Marshall </ServicesH2>
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>

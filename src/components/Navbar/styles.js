@@ -3,16 +3,18 @@ import { Link as LinkRouter } from 'react-router-dom';
 import { Link as LinkScroll } from 'react-scroll';
 
 export const Nav = styled.nav`
-    background: #000;
+    background: #fff;
     height: 80px;
     margin-top: -80px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     font-size: 1rem;
     position: sticky;
     top: 0;
     z-index: 10;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+
 
     @media screen and (max-width: 960px) {
         transition: 0.8s all ease;
@@ -30,13 +32,13 @@ export const NavbarContainer = styled.div `
 `;
 
 export const NavLogo = styled(LinkRouter)`
-    color: #fff;
+    background-color: #fff;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-left: 24px;
+    margin-left: 0px;
     font-weight: bold;
     text-decoration: none;
 `;
@@ -52,7 +54,7 @@ export const MobileIcon = styled.div`
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
-        color: #fff;
+        color: #111;
     }
 `;
 
@@ -73,7 +75,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkScroll)`
-    color: #fff;
+    color: #111;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -105,12 +107,17 @@ export const NavBtnLink = styled.a`
     outline: none;
     border: none;
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
     text-decoration: none;
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background-color: #fff;
-        color: #010606;
+        background-color: #111;
+        color: #fff;
     }
+`;
+
+export const ImgLogo = styled.img`
+    width: 350px;
+    height: 250px;
 `;

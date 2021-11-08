@@ -1,5 +1,6 @@
 import React from 'react';
 import {FaBars} from 'react-icons/fa';
+import Logo from '../../images/FORTEGPS_PNG.png'
 
 import { 
     Nav, 
@@ -10,7 +11,8 @@ import {
     NavLinks, 
     NavMenu,
     NavBtn,
-    NavBtnLink
+    NavBtnLink,
+    ImgLogo
 } from './styles';
 
 const Navbar = ({ toggle }) => {
@@ -18,7 +20,9 @@ const Navbar = ({ toggle }) => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/'>ForteGPS</NavLogo>
+                    <NavLogo to='/'>
+                        <ImgLogo src={Logo} />
+                    </NavLogo>
                     
                     <MobileIcon onClick={toggle}>
                         <FaBars />
@@ -38,10 +42,10 @@ const Navbar = ({ toggle }) => {
                         </NavItem>
                     </NavMenu>
                     
-                    <NavBtn>
-                        <NavBtnLink href="http://www10.itrack.com.br/cfortegps/controlemonitoramento" target="_blank">Rastrear seu Veículo</NavBtnLink>
-                    </NavBtn>
                 </NavbarContainer>
+                <NavBtn>
+                    <NavBtnLink href="http://www10.itrack.com.br/cfortegps/controlemonitoramento" target="_blank">Rastrear seu Veículo</NavBtnLink>
+                </NavBtn>
             </Nav>
         </>
     )
