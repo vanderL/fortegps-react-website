@@ -18,6 +18,7 @@ import  LocTempoReal from '../../images/icons/localizacao-no-mapa.png';
 import  Relatorios from '../../images/icons/relatorio-de-negocios.png';
 import  Velocimentro from '../../images/icons/velocimetro.png';
 import  AntenaMarshall from '../../images/icons/antena.png';
+import  Pesonalizacao from '../../images/icons/personalizacao.png';
 
 import {
     ServicesCard,
@@ -87,7 +88,7 @@ const ServicesIcones = () => {
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={EquipamentoAnatel} />
-                    <ServicesH2> Equipe equipada com Drone </ServicesH2>
+                    <ServicesH2> Equipamento homologado pela Anatel </ServicesH2>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={LocTempoReal} />
@@ -104,6 +105,10 @@ const ServicesIcones = () => {
                 <ServicesCard>
                     <ServicesIcon src={AntenaMarshall} />
                     <ServicesH2> Equipe equipada com Antena Marshall </ServicesH2>
+                </ServicesCard>
+                <ServicesCard>
+                    <ServicesIcon src={Pesonalizacao} />
+                    <ServicesH2> Personalização de rastreamento </ServicesH2>
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>

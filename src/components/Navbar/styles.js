@@ -118,6 +118,6 @@ export const NavBtnLink = styled.a`
 `;
 
 export const ImgLogo = styled.img`
-    width: 350px;
-    height: 250px;
+    width: 234px;
+    height: 168px;
 `;
