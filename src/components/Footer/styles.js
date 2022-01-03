@@ -13,6 +13,11 @@ export const FooterWrap = styled.div`
     max-width: 1100px;
     margin: 0 auto;
 
+    @media screen and (max-width: 480px) {
+        width: 360px;
+        padding: 0;
+    }
+
 `;
 export const FooterLinksContainer = styled.div`
     display: flex;
@@ -41,7 +46,7 @@ export const FooterLinkItems = styled.div`
 
     @media screen and (max-width: 420px) {
         margin: 0;
-        padding: 110px;
+        padding: 10px;
         width: 100%;
     }
 
@@ -65,6 +70,10 @@ export const FooterLink = styled.a`
 export const SocialMedia = styled.div`
     max-width: 1000px;
     width: 100%;
+
+    @media screen and (max-width: 480px) {
+        max-width: 360px;
+    }
 `;
 export const SocialMediaWrap = styled.div`
     display: flex;
