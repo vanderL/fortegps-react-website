@@ -1,4 +1,4 @@
-import styled  from 'styled-components';
+import styled from 'styled-components';
 import { Link as LinkRouter } from 'react-router-dom';
 import { Link as LinkScroll } from 'react-scroll';
 
@@ -21,7 +21,7 @@ export const Nav = styled.nav`
     }
 `;
 
-export const NavbarContainer = styled.div `
+export const NavbarContainer = styled.div`
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -118,6 +118,6 @@ export const NavBtnLink = styled.a`
 `;
 
 export const ImgLogo = styled.img`
-    width: 234px;
-    height: 168px;
+    width: 150px;
+    height: 150px;
 `;

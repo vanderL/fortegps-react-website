@@ -1,13 +1,13 @@
 import React from 'react';
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
-import { 
-    FooterContainer, 
-    FooterWrap, 
-    FooterLinksContainer, 
+import {
+    FooterContainer,
+    FooterWrap,
+    FooterLinksContainer,
     FooterLinksWrapper,
     FooterLinkItems,
     FooterLinkTitle,
-    FooterLink, 
+    FooterLink,
     SocialMedia,
     SocialMediaWrap,
     SocialLogo,
@@ -22,27 +22,13 @@ const Footer = () => {
             <FooterWrap>
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle> Sobre Nós</FooterLinkTitle>
-                            <FooterLink to='/'>Nosso Trabalho</FooterLink>
-                            <FooterLink to='/'>Resultados</FooterLink>
-                            <FooterLink to='/'>Nossas Vagas</FooterLink>
-                            <FooterLink to='/'>Termo de Serviço</FooterLink>
-                        </FooterLinkItems>
-                        <FooterLinkItems>
-                            <FooterLinkTitle> Dicas </FooterLinkTitle>
-                            <FooterLink to='/'>Nosso Trabalho</FooterLink>
-                            <FooterLink to='/'>Resultados</FooterLink>
-                            <FooterLink to='/'>Nossas Vagas</FooterLink>
-                            <FooterLink to='/'>Termo de Serviço</FooterLink>
-                        </FooterLinkItems>                      
+
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle> Social Media </FooterLinkTitle>
-                            <FooterLink to='/'>Instagram</FooterLink>
-                            <FooterLink to='/'>Facebook</FooterLink>
-                            <FooterLink to='/'>Linkedin</FooterLink>
+                            <FooterLink href="https://www.instagram.com/fortegpsrast" target="_blank" aria-label="Instagram">Instagram</FooterLink>
+                            <FooterLink href="https://www.facebook.com/FORTEGPS" target="_blank" aria-label="Facebook">Facebook</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle> Contatos </FooterLinkTitle>
@@ -50,7 +36,7 @@ const Footer = () => {
                             <FooterLink href='https://api.whatsapp.com/send?phone=5585994038884&text=Ol%C3%A1%2C%20tenho%20interesse%20no%20rastreamento%20veicular.'>Financeiro</FooterLink>
                             <FooterLink href='https://api.whatsapp.com/send?phone=5585994038884&text=Ol%C3%A1%2C%20tenho%20interesse%20no%20rastreamento%20veicular.'>Cobrança</FooterLink>
                             <FooterLink href='https://api.whatsapp.com/send?phone=5585994038884&text=Ol%C3%A1%2C%20tenho%20interesse%20no%20rastreamento%20veicular.'>Atendimento</FooterLink>
-                        </FooterLinkItems>                      
+                        </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
                 <SocialMedia>
@@ -58,7 +44,7 @@ const Footer = () => {
                         <SocialLogo>
                             ForteGPS
                         </SocialLogo>
-                        <WebsiteRights> 
+                        <WebsiteRights>
                             ForteGPS - {new Date().getFullYear()}
                         </WebsiteRights>
                         <SocialIcons>
@@ -76,7 +62,7 @@ const Footer = () => {
                 </SocialMedia>
             </FooterWrap>
         </FooterContainer>
-    )   
+    )
 }
 
 export default Footer;

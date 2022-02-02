@@ -2,35 +2,36 @@ import React from 'react';
 
 import {
     SidebarContainer,
-    CloseIcon, 
+    CloseIcon,
     Icon,
     SideBtnWrap,
     SidebarLink,
     SidebarRoute,
     SidebarWrapper,
-    SidebarMenu 
+    SidebarMenu
 } from './styles';
 
 const Sidebar = ({ isOpen, toggle }) => {
-  return (
-      <SidebarContainer isOpen={isOpen} onClick={toggle}>
-          <Icon onClick={toggle}>
-              <CloseIcon />
-          </Icon>
+    return (
+        <SidebarContainer isOpen={isOpen} onClick={toggle}>
+            <Icon onClick={toggle}>
+                <CloseIcon />
+            </Icon>
 
-          <SidebarWrapper>
-              <SidebarMenu>
-                  <SidebarLink to="about" onClick={toggle}>Sobre</SidebarLink>
-                  <SidebarLink to="discover" onClick={toggle}>ForteGPS</SidebarLink>
-                  <SidebarLink to="services" onClick={toggle}>Serviços</SidebarLink>
-                  <SidebarLink to="signup" onClick={toggle}>Contato</SidebarLink>
-              </SidebarMenu>
-              <SideBtnWrap>
-                  <SidebarRoute href="http://www10.itrack.com.br/cfortegps/controlemonitoramento" target="_blank">Rastrear seu Veículo</SidebarRoute>
-              </SideBtnWrap>
-          </SidebarWrapper>
-      </SidebarContainer>
-  )
+            <SidebarWrapper>
+                <SidebarMenu>
+                    <SidebarLink to="about" onClick={toggle}>Sobre</SidebarLink>
+                    <SidebarLink to="discover" onClick={toggle}>ForteGPS</SidebarLink>
+                    <SidebarLink to="services" onClick={toggle}>Serviços</SidebarLink>
+                    <SidebarLink to="instalacao" onClick={toggle}>Contratar</SidebarLink>
+                    <SidebarLink to="signup" onClick={toggle}>Contato</SidebarLink>
+                </SidebarMenu>
+                <SideBtnWrap>
+                    <SidebarRoute href="http://www10.itrack.com.br/cfortegps/controlemonitoramento" target="_blank">Rastrear seu Veículo</SidebarRoute>
+                </SideBtnWrap>
+            </SidebarWrapper>
+        </SidebarContainer>
+    )
 }
 
 export default Sidebar;

@@ -1,14 +1,14 @@
 import React from 'react';
-import {FaBars} from 'react-icons/fa';
+import { FaBars } from 'react-icons/fa';
 import Logo from '../../images/FORTEGPS_PNG.png'
 
-import { 
-    Nav, 
-    NavbarContainer, 
-    NavLogo, 
-    MobileIcon, 
-    NavItem, 
-    NavLinks, 
+import {
+    Nav,
+    NavbarContainer,
+    NavLogo,
+    MobileIcon,
+    NavItem,
+    NavLinks,
     NavMenu,
     NavBtn,
     NavBtnLink,
@@ -16,14 +16,14 @@ import {
 } from './styles';
 
 const Navbar = ({ toggle }) => {
-    return (    
+    return (
         <>
             <Nav>
                 <NavbarContainer>
                     <NavLogo to='/'>
                         <ImgLogo src={Logo} />
                     </NavLogo>
-                    
+
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
@@ -35,13 +35,13 @@ const Navbar = ({ toggle }) => {
                             <NavLinks to='services'>Nossos Serviços</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='instalacao'>Contrata</NavLinks>
+                            <NavLinks to='instalacao'>Contratar</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to='payment'>Segunda Via</NavLinks>
                         </NavItem>
                     </NavMenu>
-                    
+
                 </NavbarContainer>
                 <NavBtn>
                     <NavBtnLink href="http://www10.itrack.com.br/cfortegps/controlemonitoramento" target="_blank">Rastrear seu Veículo</NavBtnLink>
